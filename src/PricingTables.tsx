@@ -74,7 +74,7 @@ export default function Cards() {
             <CardContent className="flex-grow">
               <p className="text-4xl font-bold mb-4">
                 {plan.price}
-                <span className="text-sm font-normal">/month</span>
+                <span className="text-sm font-normal">/mes</span>
               </p>
               <ul className="space-y-2">
                 {plan.features.map((feature, featureIndex) => (
